@@ -4,7 +4,6 @@ import java.util.*;
 
 //area of cicle formula-> A=πr2
 
-import chapter02.simple_interest;
 public class area_of_circle {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -14,6 +13,7 @@ public class area_of_circle {
 
         System.out.println("Area of circle is : "+(3.14 * radius*radius));
         
+        sc.close();
         
     }
 }
