@@ -2,7 +2,11 @@ package chapter09_Pattern;
 
 import java.util.Scanner;
 
-public class triangle {
+/**
+ * triangle_with_space
+ */
+public class triangle_with_space {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter Rows: ");
@@ -15,7 +19,7 @@ public class triangle {
                 System.out.print(" ");
             }
 
-            for(int k=1;k<=(2*i)-1;k++)
+            for(int k=1;k<=i;k++)
             {
                 System.out.print("*"+" ");
             }
