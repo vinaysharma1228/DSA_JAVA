@@ -4,9 +4,10 @@ public class bubble_sort {
 
     public static void BubbleSort(int arr[])
     {
-
+        int swaps=0;
         for(int turn=0;turn<arr.length-1;turn++)
         {
+            
             for(int j=0;j<arr.length-1-turn;j++)
             {
                 if(arr[j]>arr[j+1])
@@ -14,7 +15,15 @@ public class bubble_sort {
                     int temp=arr[j];
                     arr[j]=arr[j+1];
                     arr[j+1]=temp;
+
+                    swaps++;
                 }
+            }
+
+            if (swaps==0) {
+              
+                System.out.println("Already Sorted...");
+                break;
             }
         }
     }
@@ -27,7 +36,7 @@ public class bubble_sort {
         }
     }
     public static void main(String[] args) {
-        int arr[]={5,4,6,90,1,3,2};
+        int arr[]={1,2,3,4,5};
         
         BubbleSort(arr);
         printArray(arr);
