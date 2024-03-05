@@ -6,15 +6,20 @@ public class sumOfParticularRow {
 
         int sum=0;
 
-        for(int i=0;i<nums.length;i++)
+        // for(int i=0;i<nums.length;i++)
+        // {
+        //     for(int j=0;j<nums[0].length;j++)
+        //     {
+        //         if(i==1)
+        //         {
+        //             sum+=nums[i][j];
+        //         }
+        //     }
+        // }
+
+        for(int i=0;i<nums[0].length;i++)
         {
-            for(int j=0;j<nums[0].length;j++)
-            {
-                if(i==1)
-                {
-                    sum+=nums[i][j];
-                }
-            }
+            sum+=nums[1][i];
         }
 
         System.out.println("Sum of Second Row : "+sum);
