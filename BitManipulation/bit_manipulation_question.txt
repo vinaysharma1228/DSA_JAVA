@@ -1,0 +1,39 @@
+In a job interview focused on bit manipulation topics, you can expect a range of questions that assess your understanding of bitwise operations, binary representation, and related concepts. Here are some examples of questions that might be asked:
+
+Basic Operations:
+
+Explain the bitwise AND, OR, XOR operations.
+How do you perform left and right shifts on binary numbers?
+What is the result of XORing a number with itself?
+Binary Representation:
+
+How is a negative number represented in binary using two's complement?
+Can you convert a decimal number to binary manually?
+Explain the significance of the most significant bit (MSB) and least significant bit (LSB).
+Bitwise Manipulation Techniques:
+
+Write a function to set a specific bit in an integer to 1.
+Implement a function to clear a specific bit in an integer.
+Swap the values of two variables without using a temporary variable.
+Bitwise Tricks:
+
+How would you check if a number is even or odd using bitwise operations?
+Explain how to check if a particular bit is set in a given number.
+Write a program to count the number of set bits (1s) in an integer.
+Bitwise Shifts and Multiplication/Division:
+
+Explain how left shifts and right shifts can be used for multiplication and division.
+Write a function to multiply a number by 2 using bitwise operations.
+Implement a division algorithm using bitwise operations.
+Bitwise Operators in Programming Languages:
+
+Discuss how bitwise operators are implemented in a specific programming language (e.g., C++, Java).
+How does the language handle signed and unsigned integers in bitwise operations?
+Applications:
+
+Describe a real-world scenario where bitwise operations are useful.
+How can bitwise operations be used for efficient coding in specific situations?
+Error Detection and Correction:
+
+Explain how bitwise operations can be used for error detection or correction.
+Discuss the application of parity bits in data transmission.
