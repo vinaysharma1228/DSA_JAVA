@@ -11,5 +11,6 @@ public class SetIthBit {
     public static void main(String[] args) {
         System.out.println(setIthBit(10, 2));
         
+        
     }
 }
