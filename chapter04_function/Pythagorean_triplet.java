@@ -29,6 +29,8 @@ public class Pythagorean_triplet {
         System.out.print("Enter B:");
         int b=sc.nextInt();
 
+        sc.close();
+
         if(findPythagoreanTriplet(h, p, b))
         {
             System.out.println("Pythagorean triplet");

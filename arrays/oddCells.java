@@ -1,7 +1,7 @@
 package arrays;
 
 class oddCells {
-    public int oddCells(int m, int n, int[][] indices) {
+    public int oddCell(int m, int n, int[][] indices) {
         int[] rowCounts = new int[m];
         int[] colCounts = new int[n];
 

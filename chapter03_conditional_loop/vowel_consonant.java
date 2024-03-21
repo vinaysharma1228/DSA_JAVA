@@ -17,6 +17,6 @@ public class vowel_consonant {
         else{
             System.out.println(ch+" is Consonant letter.");
         }
-
+      sc.close();
     }
 }

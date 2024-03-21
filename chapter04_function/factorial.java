@@ -23,7 +23,7 @@ public class factorial {
 
         System.out.println("Enter number to find factorial: ");
         long number=sc.nextLong();
-
+        sc.close();
 
         System.out.println("Factorial of "+number+"! is : "+Factorial(number));
 

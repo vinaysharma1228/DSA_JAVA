@@ -11,6 +11,7 @@ public class lcm_two_number {
         num1=sc.nextInt();
         System.out.println("Enter second number: ");
         num2=sc.nextInt();
+        sc.close();
         temp1=num1;
         temp2=num2;
 

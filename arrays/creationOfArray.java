@@ -18,9 +18,9 @@ public class creationOfArray {
 
         // directly initilizing at the ime of defining..
 
-        int num[]={1,2,3,4};
+     //   int num[]={1,2,3,4};
 
-        String name[]={"vinay","Royal","Prem"};
+      //  String name[]={"vinay","Royal","Prem"};
 
         
     }
